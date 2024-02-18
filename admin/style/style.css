@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+}
+
+*::-webkit-scrollbar {
+    width: 7px;
+    height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #FFF;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: #d0d2ff88;
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #d0d2ff88;
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #d0d2ff88;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #d0d2ff88;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #d0d2ff88;
+}
+
+::placeholder {
+    /* Most modern browsers support this now. */
+    color: #d0d2ff88;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #4E54C8;
+}
+
+nav{
+    width:200px;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    text-align: center;
+    border-right:1px solid #FFFFFF44;
+}
+
+.nav_button{
+    width:190px;
+    height:40px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    background: #2C2E5A;
+    color: #d0d2ff;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 22px;
+    border: none;
+    border-radius: 15px;
+    transition: 0.8s;
+}
+
+.nav_button:hover {
+    background: #000;
+    color: #FFF;
+}
+
+.selected{
+    background: #000;
+    color: #FFF;
+}
+
+.nav_button_logout{
+    background: #FF000090;
+}
+
+.nav_button_logout:hover{
+    background: #F00;
+    color: #FFF;
+}
+
+.workspace{
+    width:calc(100% - 201px);
+    height:100%;
+    position: absolute;
+    top:0;
+    left:201px;
+}
+
+.header{
+    width:100%;
+    text-align: center;
+    font-size: 40px;
+    color: #d0d2ff;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.users_table{
+    width:100%;
+    height:calc(100% - 28px);
+    position: absolute;
+    top:58px;
+    left:0;
+    overflow-x:hidden;
+    overflow-y: auto;
+}
+
+.users_table_tr{
+    width:100%;
+    height:60px;
+    border-bottom: 1px solid #FFFFFF44;
+}
+
+.users_table_user_id{
+    width:120px;
+    height:calc(100% - 13px);
+    position: relative;
+    top:0;
+    left:0;
+    border-right: 1px solid #FFFFFF44;
+    text-align: center;
+    color: #d0d2ff;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 24px;
+    padding-top:13px;
+}
+
+.users_table_user_username{
+    width:220px;
+    height:calc(100% - 13px);
+    position: relative;
+    top:-100%;
+    left:121px;
+    border-right: 1px solid #FFFFFF44;
+    text-align: center;
+    color: #d0d2ff;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 24px;
+    padding-top:13px;
+}
+
+.users_table_user_email{
+    width: 260px;
+    height: calc(100% - 13px);
+    position: relative;
+    top: -200%;
+    left: 342px;
+    border-right: 1px solid #FFFFFF44;
+    text-align: center;
+    color: #d0d2ff;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 24px;
+    padding-top: 13px;      
+}
+
+.users_table_user_phone{
+    width: 220px;
+    height: calc(100% - 13px);
+    position: relative;
+    top: -300%;
+    left: 603px;
+    border-right: 1px solid #FFFFFF44;
+    text-align: center;
+    color: #d0d2ff;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 24px;
+    padding-top: 13px;   
+}
+
+.users_table_user_balance{
+    width: 120px;
+    height: calc(100% - 13px);
+    position: relative;
+    top: -400%;
+    left: 824px;
+    border-right: 1px solid #FFFFFF44;
+    text-align: center;
+    color: #d0d2ff;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 24px;
+    padding-top: 13px;  
+}
+
+.users_table_user_ban{
+    width: 120px;
+    height: 40px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    background: #2C2E5A;
+    color: #d0d2ff;
+    position: relative;
+    top: -495%;
+    left:955px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    transition: 0.8s;
+}
+
+.users_table_user_ban:hover {
+    background: #000;
+    color: #FFF;
+}

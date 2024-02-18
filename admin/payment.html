@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Админ-панель</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style/payment.css">
+    <script src="scripts/script.js"></script>
+    <script defer src="scripts/payment.js"></script>
+</head>
+
+<body>
+    <div class="content">
+        <nav>
+            <button class="nav_button" onclick="document.location='index.html'">Главная</button>
+            <button class="nav_button" onclick="document.location='requests.html'">Запросы</button>
+            <button class="nav_button" onclick="document.location='tasks.html'">Задания</button>
+            <button class="nav_button" onclick="document.location='partners.html'">Партнеры</button>
+            <button class="nav_button" onclick="document.location='apps.html'">Приложения</button>
+            <button class="nav_button selected" onclick="document.location='payment.html'">Платежи</button>
+            <button class="nav_button nav_button_logout">Выход</button>
+        </nav>
+
+        <div class="workspace">
+            <h1 class="header">Методы вывода средств</h1>
+
+            <div class="methods_list">
+                
+            </div>
+
+            <div class="method_creation_form">
+                <input type="text" class="method_creation_name" placeholder="Название">
+                <input type="text" class="method_creation_description" placeholder="Описание">
+
+                <form class="method_creation_image_form">
+                    <input type="file" name="image" class="method_creation_image">
+                </form>
+
+                <button class="method_create_button" onclick="create_payment_method()">Создать</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Админ-панель</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style/requests.css">
+    <script src="scripts/script.js"></script>
+    <script defer src="scripts/requests.js"></script>
+</head>
+
+<body>
+    <div class="content">
+        <nav>
+            <button class="nav_button" onclick="document.location='index.html'">Главная</button>
+            <button class="nav_button selected" onclick="document.location='requests.html'">Запросы</button>
+            <button class="nav_button" onclick="document.location='tasks.html'">Задания</button>
+            <button class="nav_button" onclick="document.location='partners.html'">Партнеры</button>
+            <button class="nav_button" onclick="document.location='apps.html'">Приложения</button>
+            <button class="nav_button" onclick="document.location='payment.html'">Платежи</button>
+            <button class="nav_button nav_button_logout">Выход</button>
+        </nav>
+
+        <div class="workspace">
+            <h1 class="header">Запросы на вывод</h1>
+            
+            <div class="requests_table">
+
+                <div class="requests_table_tr">
+                    <div class="requests_table_date">2024-02-16 01:27:22</div>
+                    <div class="requests_table_user_id">UID</div>
+                    <div class="requests_table_amount">Сумма</div>
+                    <div class="requests_table_method">Метод</div>
+                    <div class="requests_table_data">Примечание</div>
+                    <select class="requests_table_status_selector">
+                        <option>Создана</option>
+                        <option>В обработке</option>
+                        <option>Завершена</option>
+                        <option>Отклонена</option>
+                    </select>
+                </div>
+
+                <div class="requests_table_tr">
+                    <div class="requests_table_date">2024-02-16 01:27:22</div>
+                    <div class="requests_table_user_id">UID</div>
+                    <div class="requests_table_amount">Сумма</div>
+                    <div class="requests_table_method">Метод</div>
+                    <div class="requests_table_data">Примечание</div>
+                    <select class="requests_table_status_selector">
+                        <option>Создана</option>
+                        <option>В обработке</option>
+                        <option>Завершена</option>
+                        <option>Отклонена</option>
+                    </select>
+                </div>
+
+                <div class="requests_table_tr">
+                    <div class="requests_table_date">2024-02-16 01:27:22</div>
+                    <div class="requests_table_user_id">UID</div>
+                    <div class="requests_table_amount">Сумма</div>
+                    <div class="requests_table_method">Метод</div>
+                    <div class="requests_table_data">Примечание</div>
+                    <select class="requests_table_status_selector">
+                        <option>Создана</option>
+                        <option>В обработке</option>
+                        <option>Завершена</option>
+                        <option>Отклонена</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

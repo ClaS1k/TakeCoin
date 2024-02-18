@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+}
+
+*::-webkit-scrollbar {
+    width: 7px;
+    height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #FFF;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: #d0d2ff88;
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #d0d2ff88;
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #d0d2ff88;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #d0d2ff88;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #d0d2ff88;
+}
+
+::placeholder {
+    /* Most modern browsers support this now. */
+    color: #d0d2ff88;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #4E54C8;
+}
+
+nav {
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    border-right: 1px solid #FFFFFF44;
+}
+
+.nav_button {
+    width: 190px;
+    height: 40px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    background: #2C2E5A;
+    color: #d0d2ff;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 22px;
+    border: none;
+    border-radius: 15px;
+    transition: 0.8s;
+}
+
+.nav_button:hover {
+    background: #000;
+    color: #FFF;
+}
+
+.selected {
+    background: #000;
+    color: #FFF;
+}
+
+.nav_button_logout {
+    background: #FF000090;
+}
+
+.nav_button_logout:hover {
+    background: #F00;
+    color: #FFF;
+}
+
+.workspace {
+    width: calc(100% - 201px);
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 201px;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    color: #d0d2ff;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.methods_list{
+    width:50%;
+    height:calc(100% - 60px);
+    position: absolute;
+    top:60px;
+    left:0;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.payment_method{
+    width:400px;
+    height:220px;
+    border:2px solid #FFFFFF44;
+    border-radius:40px;
+    display: inline-block;
+    margin-top:15px;
+}
+
+.payment_method_image{
+    width:120px;
+    height:120px;
+    margin-top: 10px;
+    border:2px solid #FFFFFF44;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.payment_method_name{
+    font-size: 30px;
+    color: #d0d2ff;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.payment_method_description{
+    font-size: 22px;
+    color: #d0d2ff;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.method_creation_form{
+    width:50%;
+    height:calc(100% - 60px);
+    position: absolute;
+    top:60px;
+    left:50%;
+}
+
+.method_creation_name{
+    width:320px;
+    height:40px;
+    position: absolute;
+    top:40px;
+    left:calc(50% - 161px);
+    background: #00000040;
+    color:#d0d2ff;
+    border:1px solid #8e92ee;
+    font-size:32px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    border-radius:10px;
+}
+
+.method_creation_description{
+    width:320px;
+    height:40px;
+    position: absolute;
+    top:100px;
+    left:calc(50% - 161px);
+    background: #00000040;
+    color:#d0d2ff;
+    border:1px solid #8e92ee;
+    font-size:32px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    border-radius:10px;
+}
+
+.method_creation_image{
+    width: 320px;
+    height: 40px;
+    position: absolute;
+    top: 180px;
+    left: calc(50% - 161px);
+    background: #00000040;
+    color: #d0d2ff;
+    border: 1px solid #8e92ee;
+    font-size: 20px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.method_create_button {
+    width: 250px;
+    height: 45px;
+    position: absolute;
+    bottom: 50px;
+    left: calc(50% - 125px);
+    cursor: pointer;
+    background: #2C2E5A;
+    color: #d0d2ff;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 26px;
+    border: none;
+    border-radius: 15px;
+    transition: 0.8s;
+}
+
+.method_create_button:hover {
+    background: #000;
+    color: #FFF;
+}

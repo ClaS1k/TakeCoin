@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Админ-панель</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="scripts/script.js"></script>
+    <script defer src="scripts/index.js"></script>
+</head>
+
+<body>
+    <div class="content">
+        <nav>
+            <button class="nav_button selected" onclick="document.location='index.html'">Главная</button>
+            <button class="nav_button" onclick="document.location='requests.html'">Запросы</button>
+            <button class="nav_button" onclick="document.location='tasks.html'">Задания</button>
+            <button class="nav_button" onclick="document.location='partners.html'">Партнеры</button>
+            <button class="nav_button" onclick="document.location='apps.html'">Приложения</button>
+            <button class="nav_button" onclick="document.location='payment.html'">Платежи</button>
+            <button class="nav_button nav_button_logout">Выход</button>
+        </nav>
+
+        <div class="workspace">
+            <h1 class="header">Главная</h1>
+
+            <div class="users_table">
+                <div class="users_table_tr">
+                    <div class="users_table_user_id">ID</div>
+                    <div class="users_table_user_username">Никнейм</div>
+                    <div class="users_table_user_email">Email</div>
+                    <div class="users_table_user_phone">Телефон</div>
+                    <div class="users_table_user_balance">Баланс</div>
+                    <button class="users_table_user_ban">Забанить</button>
+                </div>
+
+                <div class="users_table_tr">
+                    <div class="users_table_user_id">ID</div>
+                    <div class="users_table_user_username">Никнейм</div>
+                    <div class="users_table_user_email">Email</div>
+                    <div class="users_table_user_phone">Телефон</div>
+                    <div class="users_table_user_balance">Баланс</div>
+                    <button class="users_table_user_ban">Забанить</button>
+                </div>
+
+                <div class="users_table_tr">
+                    <div class="users_table_user_id">ID</div>
+                    <div class="users_table_user_username">Никнейм</div>
+                    <div class="users_table_user_email">Email</div>
+                    <div class="users_table_user_phone">Телефон</div>
+                    <div class="users_table_user_balance">Баланс</div>
+                    <button class="users_table_user_ban">Забанить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
